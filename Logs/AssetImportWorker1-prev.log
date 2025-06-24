@@ -1,0 +1,557 @@
+Unity Editor version:    6000.1.3f1 (f34db9734971)
+Branch:                  6000.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.5 (Build 24F74)
+Darwin version:          24.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Date:                    2025-06-24T16:44:15Z
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.1.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/x24014xx/Desktop/TGS2024_New
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59837
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/x24014xx/Desktop/TGS2024_New
+/Users/x24014xx/Desktop/TGS2024_New
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8421416704]  Target information:
+
+Player connection [8421416704]  * "[IP] 192.168.0.202 [Port] 0 [Flags] 2 [Guid] 2467795781 [EditorId] 2467795781 [Version] 1048832 [Id] OSXEditor(0,x24014xxnonotobukkukonpyuta.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8421416704] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8421416704] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.3f1 (f34db9734971)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.1.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/x24014xx/Desktop/TGS2024_New/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.1.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.1.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.1.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56918
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.3f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.003166 seconds.
+- Loaded All Assemblies, in  0.370 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 93 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.370 seconds
+Domain Reload Profiling: 740ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (114ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (370ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (196ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.183 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.219 seconds
+Domain Reload Profiling: 403ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (28ms)
+		LoadAssemblies (67ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (8ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (220ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (150ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.1.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 111 unused Assets / (43.4 KB). Loaded Objects now: 625.
+Memory consumption went from 76.1 MB to 76.1 MB.
+Total: 2.853292 ms (FindLiveObjects: 0.024625 ms CreateObjectMapping: 0.005209 ms MarkObjects: 2.766458 ms  DeleteObjects: 0.056542 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7921.592541 seconds.
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(040066c764ff14873a68582f8e500d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(040066c764ff14873a68582f8e500d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c59359d0f8dbcd52a3f0ddabfbc7ab6c') in 0.00377375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NewAudioMixer.mixer
+  artifactKey: Guid(0d18f93bdae86461f8e849cdaa5ff72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAudioMixer.mixer using Guid(0d18f93bdae86461f8e849cdaa5ff72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '349c9536ad830859b9daf9d455f7e35c') in 0.012355959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(f2adad5b58e295442a6d77ad8507b191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(f2adad5b58e295442a6d77ad8507b191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f9e196382624ac463615d358bef64cf') in 0.000586542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce8d27d1fbfdceb02bdcef2da33e3a8f') in 0.00186475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Countdown.mixer
+  artifactKey: Guid(6842ec9f5e3e14c41a90903dfd263d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Countdown.mixer using Guid(6842ec9f5e3e14c41a90903dfd263d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '0d59f18271f821ebccd2d2fc70b6a980') in 0.000753375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.473726 seconds.
+  path: Assets/Audio/001_四国めたん（ノーマル）_残り30秒.wav
+  artifactKey: Guid(c92a39126a3674f9fa5a645d7019b85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/001_四国めたん（ノーマル）_残り30秒.wav using Guid(c92a39126a3674f9fa5a645d7019b85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75d7619adfa2dbb7f8c68018e2b9a247') in 0.082313625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Audio/「4（よん）」.mp3
+  artifactKey: Guid(a3d7ea228b0674cdabb6b2432970a13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/「4（よん）」.mp3 using Guid(a3d7ea228b0674cdabb6b2432970a13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e411cfe0bac35d7a29bf53076411767c') in 0.003151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Audio/4.mp3
+  artifactKey: Guid(a1cee211e952e4bb38a16140ebcf4cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/4.mp3 using Guid(a1cee211e952e4bb38a16140ebcf4cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69711fce70ab6d5f7d24b84814763d33') in 0.004216375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Audio/002_四国めたん（ノーマル）_3.wav
+  artifactKey: Guid(da836b224ec664f9fb442877bbcad1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/002_四国めたん（ノーマル）_3.wav using Guid(da836b224ec664f9fb442877bbcad1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8f19186f9aba6d9223f578ab3f7a3e0') in 0.003342708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Audio/「5」.mp3
+  artifactKey: Guid(e09c609156d1c4003b82cf8f8fd65e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/「5」.mp3 using Guid(e09c609156d1c4003b82cf8f8fd65e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d0ee871b4851f7e911977ed029eca17') in 0.003419084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Audio/よーい.mp3
+  artifactKey: Guid(2bb6e3d43d97d43eeb45352bd5b1989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/よーい.mp3 using Guid(2bb6e3d43d97d43eeb45352bd5b1989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fb8448daa2ec3cb300fc19be3ad1205') in 0.004564667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Audio/「7」.mp3
+  artifactKey: Guid(16e5c64f123bc4fd5b8f65dfd3645879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/「7」.mp3 using Guid(16e5c64f123bc4fd5b8f65dfd3645879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5539f240f2fc7a4ddf086365324028fe') in 0.003613083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Audio/「9」.mp3
+  artifactKey: Guid(20e3833d085b54131abfa4ec87579e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/「9」.mp3 using Guid(20e3833d085b54131abfa4ec87579e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28249dadd1409212500fba815f3aba23') in 0.004622708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Audio/「10（じゅう↓）」.mp3
+  artifactKey: Guid(6beb2b8fab6194039835a4daedbb9614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/「10（じゅう↓）」.mp3 using Guid(6beb2b8fab6194039835a4daedbb9614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a15641b57ee8b4728199e4b11a30e6b5') in 0.004481667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Audio/「2」.mp3
+  artifactKey: Guid(87561faec31e84634ae586dbaf8befc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/「2」.mp3 using Guid(87561faec31e84634ae586dbaf8befc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd319ff9fa7a87276933e808fcf9de2d8') in 0.002703209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Audio/004_四国めたん（ノーマル）_1.wav
+  artifactKey: Guid(ba8a913b7cb7044a284ae66d188115a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/004_四国めたん（ノーマル）_1.wav using Guid(ba8a913b7cb7044a284ae66d188115a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31c1101bd2c87ed0affad80d1ff55986') in 0.0057685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Audio/005_四国めたん（ノーマル）_ゲームスタート.wav
+  artifactKey: Guid(fa3ea3637f35846a8a2ca13ed731fc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/005_四国めたん（ノーマル）_ゲームスタート.wav using Guid(fa3ea3637f35846a8a2ca13ed731fc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c47ec0c8a0ee59f29f745770610d7edc') in 0.003949875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Audio/「8」.mp3
+  artifactKey: Guid(0e36bef0559de41a0921789069658738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/「8」.mp3 using Guid(0e36bef0559de41a0921789069658738) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72fe7efcf701fec87785dfcb2a4e26f0') in 0.003080333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Audio/「3」.mp3
+  artifactKey: Guid(04adda442d566468d83554bec9d5065d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/「3」.mp3 using Guid(04adda442d566468d83554bec9d5065d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '761c9fef7337c0ce1d3c1235b2509859') in 0.00377025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Audio/「5」 1.mp3
+  artifactKey: Guid(c51b3202d55684276819cb2d68e3d4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/「5」 1.mp3 using Guid(c51b3202d55684276819cb2d68e3d4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '706da8152964cc822198ed6dcbf45f32') in 0.004124458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.593848 seconds.
+  path: Assets/prefab_humen/女の子2.prefab
+  artifactKey: Guid(54fee0c4c585848cd91f9cec2a56bbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab_humen/女の子2.prefab using Guid(54fee0c4c585848cd91f9cec2a56bbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5552daa44c82e8762a614df90cb10b0e') in 0.078048209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/prefab_humen/男の子1.prefab
+  artifactKey: Guid(f8d30b08fa7fd4881b881483f29c2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab_humen/男の子1.prefab using Guid(f8d30b08fa7fd4881b881483f29c2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dac29f408317ccdfd4580b5e5947dddf') in 0.009264292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/prefab_humen/婆1.prefab
+  artifactKey: Guid(2a6dbbdba93c3448fb86b42000717073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab_humen/婆1.prefab using Guid(2a6dbbdba93c3448fb86b42000717073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83d300a4bc6ce650eab51f0b1738f34c') in 0.008142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/prefab_humen/男の子4.prefab
+  artifactKey: Guid(55437edcc046b488e86992e5036ee335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab_humen/男の子4.prefab using Guid(55437edcc046b488e86992e5036ee335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74ae67805bfdc770269abd7393913758') in 0.006556458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x315283000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.512 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 2 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.372 seconds
+Domain Reload Profiling: 884ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (49ms)
+				TypeCache.ScanAssembly (38ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (372ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (282ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 127 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5944 unused Assets / (9.9 MB). Loaded Objects now: 6320.
+Memory consumption went from 132.1 MB to 122.2 MB.
+Total: 7.973625 ms (FindLiveObjects: 0.465000 ms CreateObjectMapping: 0.300792 ms MarkObjects: 3.549667 ms  DeleteObjects: 3.657708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 127 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 127 unused Assets / (9.6 MB). Loaded Objects now: 6320.
+Memory consumption went from 130.9 MB to 121.3 MB.
+Total: 10.545292 ms (FindLiveObjects: 0.267834 ms CreateObjectMapping: 0.171542 ms MarkObjects: 4.498667 ms  DeleteObjects: 5.607000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
